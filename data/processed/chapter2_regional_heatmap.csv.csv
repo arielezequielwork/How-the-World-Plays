@@ -1,0 +1,81 @@
+"genre";"region";"market_share"
+Action;JP;11.67
+Action;NA;17.63
+Action;Other;17.26
+Action;PAL;17.87
+Action-Adventure;JP;0.79
+Action-Adventure;NA;1.95
+Action-Adventure;Other;2.83
+Action-Adventure;PAL;3.10
+Adventure;JP;6.70
+Adventure;NA;4.70
+Adventure;Other;4.62
+Adventure;PAL;4.77
+Board Game;JP;0.01
+Board Game;NA;0.00
+Board Game;Other;0.00
+Board Game;PAL;0.01
+Education;JP;0.00
+Education;NA;0.02
+Education;Other;0.01
+Education;PAL;0.01
+Fighting;JP;8.52
+Fighting;NA;5.20
+Fighting;Other;4.40
+Fighting;PAL;4.16
+Misc;JP;8.17
+Misc;NA;8.84
+Misc;Other;8.99
+Misc;PAL;7.65
+MMO;JP;0.20
+MMO;NA;0.12
+MMO;Other;0.16
+MMO;PAL;0.15
+Music;JP;0.85
+Music;NA;0.78
+Music;Other;0.76
+Music;PAL;0.78
+Party;JP;0.17
+Party;NA;0.08
+Party;Other;0.08
+Party;PAL;0.09
+Platform;JP;4.52
+Platform;NA;5.62
+Platform;Other;4.67
+Platform;PAL;5.18
+Puzzle;JP;4.25
+Puzzle;NA;1.92
+Puzzle;Other;1.13
+Puzzle;PAL;1.34
+Racing;JP;2.94
+Racing;NA;8.06
+Racing;Other;8.67
+Racing;PAL;9.35
+Role-Playing;JP;18.98
+Role-Playing;NA;5.13
+Role-Playing;Other;5.18
+Role-Playing;PAL;4.75
+Sandbox;JP;0.08
+Sandbox;NA;0.02
+Sandbox;Other;0.02
+Sandbox;PAL;0.03
+Shooter;JP;4.94
+Shooter;NA;15.79
+Shooter;Other;16.65
+Shooter;PAL;16.94
+Simulation;JP;5.23
+Simulation;NA;4.57
+Simulation;Other;3.74
+Simulation;PAL;4.53
+Sports;JP;15.88
+Sports;NA;18.16
+Sports;Other;19.69
+Sports;PAL;17.84
+Strategy;JP;5.35
+Strategy;NA;1.41
+Strategy;Other;1.12
+Strategy;PAL;1.41
+Visual Novel;JP;0.74
+Visual Novel;NA;0.01
+Visual Novel;Other;0.02
+Visual Novel;PAL;0.00

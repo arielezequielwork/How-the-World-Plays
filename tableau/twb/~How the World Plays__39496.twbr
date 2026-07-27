@@ -1,0 +1,1313 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0603.1643                               -->
+<workbook original-version='18.1' source-build='2026.2.0 (20262.26.0603.1643)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='video_games_processed.csv' inline='true' name='federated.15we36j1ob9pfp1ck6grr1v169sk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='video_games_processed.csv' name='textscan.1tem9cs1b1kgqg19b2hjg1gt642m'>
+            <connection class='textscan' directory='C:/Users/wwwCo/Desktop/video_game_market/data/processed' filename='video_games_processed.csv.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1tem9cs1b1kgqg19b2hjg1gt642m' name='video_games_processed.csv.csv' table='[video_games_processed.csv#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_US' separator=';'>
+            <column datatype='string' name='img' ordinal='0' />
+            <column datatype='string' name='title' ordinal='1' />
+            <column datatype='string' name='console' ordinal='2' />
+            <column datatype='string' name='genre' ordinal='3' />
+            <column datatype='string' name='publisher' ordinal='4' />
+            <column datatype='string' name='developer' ordinal='5' />
+            <column datatype='real' name='critic_score' ordinal='6' />
+            <column datatype='real' name='total_sales' ordinal='7' />
+            <column datatype='real' name='na_sales' ordinal='8' />
+            <column datatype='real' name='jp_sales' ordinal='9' />
+            <column datatype='real' name='pal_sales' ordinal='10' />
+            <column datatype='real' name='other_sales' ordinal='11' />
+            <column datatype='date' name='release_date' ordinal='12' />
+            <column datatype='date' name='last_update' ordinal='13' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[video_games_processed.csv.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>img</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[img]</local-name>
+            <parent-name>[video_games_processed.csv.csv]</parent-name>
+            <remote-alias>img</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[video_games_processed.csv.csv_322CC969E2E44F84AEB4EAF37DEC0CB6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[title]</local-name>
+            <parent-name>[video_games_processed.csv.csv]</parent-name>
+            <remote-alias>title</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[video_games_processed.csv.csv_322CC969E2E44F84AEB4EAF37DEC0CB6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>console</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[console]</local-name>
+            <parent-name>[video_games_processed.csv.csv]</parent-name>
+            <remote-alias>console</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[video_games_processed.csv.csv_322CC969E2E44F84AEB4EAF37DEC0CB6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>genre</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[genre]</local-name>
+            <parent-name>[video_games_processed.csv.csv]</parent-name>
+            <remote-alias>genre</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[video_games_processed.csv.csv_322CC969E2E44F84AEB4EAF37DEC0CB6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>publisher</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[publisher]</local-name>
+            <parent-name>[video_games_processed.csv.csv]</parent-name>
+            <remote-alias>publisher</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[video_games_processed.csv.csv_322CC969E2E44F84AEB4EAF37DEC0CB6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>developer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[developer]</local-name>
+            <parent-name>[video_games_processed.csv.csv]</parent-name>
+            <remote-alias>developer</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[video_games_processed.csv.csv_322CC969E2E44F84AEB4EAF37DEC0CB6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>critic_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[critic_score]</local-name>
+            <parent-name>[video_games_processed.csv.csv]</parent-name>
+            <remote-alias>critic_score</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[video_games_processed.csv.csv_322CC969E2E44F84AEB4EAF37DEC0CB6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_sales]</local-name>
+            <parent-name>[video_games_processed.csv.csv]</parent-name>
+            <remote-alias>total_sales</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[video_games_processed.csv.csv_322CC969E2E44F84AEB4EAF37DEC0CB6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>na_sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[na_sales]</local-name>
+            <parent-name>[video_games_processed.csv.csv]</parent-name>
+            <remote-alias>na_sales</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[video_games_processed.csv.csv_322CC969E2E44F84AEB4EAF37DEC0CB6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jp_sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[jp_sales]</local-name>
+            <parent-name>[video_games_processed.csv.csv]</parent-name>
+            <remote-alias>jp_sales</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[video_games_processed.csv.csv_322CC969E2E44F84AEB4EAF37DEC0CB6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pal_sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pal_sales]</local-name>
+            <parent-name>[video_games_processed.csv.csv]</parent-name>
+            <remote-alias>pal_sales</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[video_games_processed.csv.csv_322CC969E2E44F84AEB4EAF37DEC0CB6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[other_sales]</local-name>
+            <parent-name>[video_games_processed.csv.csv]</parent-name>
+            <remote-alias>other_sales</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[video_games_processed.csv.csv_322CC969E2E44F84AEB4EAF37DEC0CB6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>release_date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[release_date]</local-name>
+            <parent-name>[video_games_processed.csv.csv]</parent-name>
+            <remote-alias>release_date</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[video_games_processed.csv.csv_322CC969E2E44F84AEB4EAF37DEC0CB6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_update</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[last_update]</local-name>
+            <parent-name>[video_games_processed.csv.csv]</parent-name>
+            <remote-alias>last_update</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[video_games_processed.csv.csv_322CC969E2E44F84AEB4EAF37DEC0CB6]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='video_games_processed.csv.csv' datatype='table' name='[__tableau_internal_object_id__].[video_games_processed.csv.csv_322CC969E2E44F84AEB4EAF37DEC0CB6]' role='measure' type='quantitative' />
+      <column caption='Console' datatype='string' name='[console]' role='dimension' type='nominal' />
+      <column caption='Critic Score' datatype='real' name='[critic_score]' role='measure' type='quantitative' />
+      <column caption='Developer' datatype='string' name='[developer]' role='dimension' type='nominal' />
+      <column caption='Genre' datatype='string' name='[genre]' role='dimension' type='nominal' />
+      <column caption='Img' datatype='string' name='[img]' role='dimension' type='nominal' />
+      <column caption='Jp Sales' datatype='real' name='[jp_sales]' role='measure' type='quantitative' />
+      <column caption='Last Update' datatype='date' name='[last_update]' role='dimension' type='ordinal' />
+      <column caption='Na Sales' datatype='real' name='[na_sales]' role='measure' type='quantitative' />
+      <column caption='Other Sales' datatype='real' name='[other_sales]' role='measure' type='quantitative' />
+      <column caption='Pal Sales' datatype='real' name='[pal_sales]' role='measure' type='quantitative' />
+      <column caption='Publisher' datatype='string' name='[publisher]' role='dimension' type='nominal' />
+      <column caption='Release Date' datatype='date' name='[release_date]' role='dimension' type='ordinal' />
+      <column caption='Title' datatype='string' name='[title]' role='dimension' type='nominal' />
+      <column caption='Total Sales' datatype='real' name='[total_sales]' role='measure' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/wwwCo/AppData/Local/Temp/TableauTemp/#TableauTemp_0m788ra16m7tf017cvzhi19lpbyt.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/07/2026 09:00:25 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>img</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[img]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>img</remote-alias>
+              <ordinal>0</ordinal>
+              <family>video_games_processed.csv.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>56919</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[title]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>title</remote-alias>
+              <ordinal>1</ordinal>
+              <family>video_games_processed.csv.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>25856</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>console</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[console]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>console</remote-alias>
+              <ordinal>2</ordinal>
+              <family>video_games_processed.csv.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>95</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>genre</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[genre]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>genre</remote-alias>
+              <ordinal>3</ordinal>
+              <family>video_games_processed.csv.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>publisher</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[publisher]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>publisher</remote-alias>
+              <ordinal>4</ordinal>
+              <family>video_games_processed.csv.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2361</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>developer</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[developer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>developer</remote-alias>
+              <ordinal>5</ordinal>
+              <family>video_games_processed.csv.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6273</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>critic_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[critic_score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>critic_score</remote-alias>
+              <ordinal>6</ordinal>
+              <family>video_games_processed.csv.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>177</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[total_sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_sales</remote-alias>
+              <ordinal>7</ordinal>
+              <family>video_games_processed.csv.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>526</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>na_sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[na_sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>na_sales</remote-alias>
+              <ordinal>8</ordinal>
+              <family>video_games_processed.csv.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>281</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>jp_sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[jp_sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>jp_sales</remote-alias>
+              <ordinal>9</ordinal>
+              <family>video_games_processed.csv.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>130</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pal_sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pal_sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pal_sales</remote-alias>
+              <ordinal>10</ordinal>
+              <family>video_games_processed.csv.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>210</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>other_sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[other_sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>other_sales</remote-alias>
+              <ordinal>11</ordinal>
+              <family>video_games_processed.csv.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>147</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>release_date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[release_date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>release_date</remote-alias>
+              <ordinal>12</ordinal>
+              <family>video_games_processed.csv.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>8244</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>last_update</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[last_update]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>last_update</remote-alias>
+              <ordinal>13</ordinal>
+              <family>video_games_processed.csv.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>2791</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Argentina&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='video_games_processed.csv.csv' id='video_games_processed.csv.csv_322CC969E2E44F84AEB4EAF37DEC0CB6'>
+            <properties context=''>
+              <relation connection='textscan.1tem9cs1b1kgqg19b2hjg1gt642m' name='video_games_processed.csv.csv' table='[video_games_processed.csv#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_US' separator=';'>
+                  <column datatype='string' name='img' ordinal='0' />
+                  <column datatype='string' name='title' ordinal='1' />
+                  <column datatype='string' name='console' ordinal='2' />
+                  <column datatype='string' name='genre' ordinal='3' />
+                  <column datatype='string' name='publisher' ordinal='4' />
+                  <column datatype='string' name='developer' ordinal='5' />
+                  <column datatype='real' name='critic_score' ordinal='6' />
+                  <column datatype='real' name='total_sales' ordinal='7' />
+                  <column datatype='real' name='na_sales' ordinal='8' />
+                  <column datatype='real' name='jp_sales' ordinal='9' />
+                  <column datatype='real' name='pal_sales' ordinal='10' />
+                  <column datatype='real' name='other_sales' ordinal='11' />
+                  <column datatype='date' name='release_date' ordinal='12' />
+                  <column datatype='date' name='last_update' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='chapter2_regional_heatmap.csv' inline='true' name='federated.0gjgyhr1xd18sx1ev6aav1464168' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='chapter2_regional_heatmap.csv' name='textscan.1nradkb0v7xp8k125t5t00158rua'>
+            <connection class='textscan' directory='C:/Users/wwwCo/Desktop/video_game_market/data/processed' filename='chapter2_regional_heatmap.csv.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1nradkb0v7xp8k125t5t00158rua' name='chapter2_regional_heatmap.csv.csv' table='[chapter2_regional_heatmap.csv#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_US' separator=';'>
+            <column datatype='string' name='genre' ordinal='0' />
+            <column datatype='string' name='region' ordinal='1' />
+            <column datatype='real' name='market_share' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[chapter2_regional_heatmap.csv.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>genre</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[genre]</local-name>
+            <parent-name>[chapter2_regional_heatmap.csv.csv]</parent-name>
+            <remote-alias>genre</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[chapter2_regional_heatmap.csv.csv_C751F0944A104FF08238999337F8341A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[region]</local-name>
+            <parent-name>[chapter2_regional_heatmap.csv.csv]</parent-name>
+            <remote-alias>region</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[chapter2_regional_heatmap.csv.csv_C751F0944A104FF08238999337F8341A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>market_share</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[market_share]</local-name>
+            <parent-name>[chapter2_regional_heatmap.csv.csv]</parent-name>
+            <remote-alias>market_share</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[chapter2_regional_heatmap.csv.csv_C751F0944A104FF08238999337F8341A]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='chapter2_regional_heatmap.csv.csv' datatype='table' name='[__tableau_internal_object_id__].[chapter2_regional_heatmap.csv.csv_C751F0944A104FF08238999337F8341A]' role='measure' type='quantitative' />
+      <column caption='Genre' datatype='string' name='[genre]' role='dimension' type='nominal' />
+      <column caption='Market Share' datatype='real' name='[market_share]' role='measure' type='quantitative' />
+      <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/wwwCo/AppData/Local/Temp/TableauTemp/#TableauTemp_121mo7i133ybfx1en5aix1g55i3c.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/07/2026 09:00:29 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>genre</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[genre]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>genre</remote-alias>
+              <ordinal>0</ordinal>
+              <family>chapter2_regional_heatmap.csv.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>region</remote-alias>
+              <ordinal>1</ordinal>
+              <family>chapter2_regional_heatmap.csv.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>market_share</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[market_share]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>market_share</remote-alias>
+              <ordinal>2</ordinal>
+              <family>chapter2_regional_heatmap.csv.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>65</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Argentina&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='chapter2_regional_heatmap.csv.csv' id='chapter2_regional_heatmap.csv.csv_C751F0944A104FF08238999337F8341A'>
+            <properties context=''>
+              <relation connection='textscan.1nradkb0v7xp8k125t5t00158rua' name='chapter2_regional_heatmap.csv.csv' table='[chapter2_regional_heatmap.csv#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_US' separator=';'>
+                  <column datatype='string' name='genre' ordinal='0' />
+                  <column datatype='string' name='region' ordinal='1' />
+                  <column datatype='real' name='market_share' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='chapter1_timeline.csv' inline='true' name='federated.1g8kaex0b49gwn1cbvbrd0lyaxc9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='chapter1_timeline.csv' name='textscan.1tgyc0g1rlc7g1182535g13fnyne'>
+            <connection class='textscan' directory='C:/Users/wwwCo/Desktop/video_game_market/data/processed' filename='chapter1_timeline.csv.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1tgyc0g1rlc7g1182535g13fnyne' name='chapter1_timeline.csv.csv' table='[chapter1_timeline.csv#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_US' separator=';'>
+            <column datatype='integer' name='year' ordinal='0' />
+            <column datatype='integer' name='games_released' ordinal='1' />
+            <column datatype='real' name='total_sales' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[chapter1_timeline.csv.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[chapter1_timeline.csv.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[chapter1_timeline.csv.csv_2920E02577EF413BB3A890D48F009C34]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>games_released</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[games_released]</local-name>
+            <parent-name>[chapter1_timeline.csv.csv]</parent-name>
+            <remote-alias>games_released</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[chapter1_timeline.csv.csv_2920E02577EF413BB3A890D48F009C34]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_sales]</local-name>
+            <parent-name>[chapter1_timeline.csv.csv]</parent-name>
+            <remote-alias>total_sales</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[chapter1_timeline.csv.csv_2920E02577EF413BB3A890D48F009C34]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Highlight Peak' datatype='string' name='[Calculation_2049508464619520]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [year] = 2009 THEN &quot;Peak&quot;&#13;&#10;ELSE &quot;Normal&quot;&#13;&#10;END' />
+      </column>
+      <column caption='chapter1_timeline.csv.csv' datatype='table' name='[__tableau_internal_object_id__].[chapter1_timeline.csv.csv_2920E02577EF413BB3A890D48F009C34]' role='measure' type='quantitative' />
+      <column caption='Games Released' datatype='integer' name='[games_released]' role='measure' type='quantitative' />
+      <column caption='Total Sales' datatype='real' name='[total_sales]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[Calculation_2049508464619520]' derivation='None' name='[none:Calculation_2049508464619520:nk]' pivot='key' type='nominal' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/wwwCo/AppData/Local/Temp/TableauTemp/#TableauTemp_0d3bp931u13c1b1f9cueq12gp61j.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/07/2026 09:03:40 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>0</ordinal>
+              <family>chapter1_timeline.csv.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>44</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[chapter1_timeline.csv.csv_2920E02577EF413BB3A890D48F009C34]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>games_released</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[games_released]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>games_released</remote-alias>
+              <ordinal>1</ordinal>
+              <family>chapter1_timeline.csv.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>44</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[chapter1_timeline.csv.csv_2920E02577EF413BB3A890D48F009C34]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[total_sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_sales</remote-alias>
+              <ordinal>2</ordinal>
+              <family>chapter1_timeline.csv.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>44</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[chapter1_timeline.csv.csv_2920E02577EF413BB3A890D48F009C34]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_2049508464619520:nk]' type='palette'>
+            <map to='#f0751e'>
+              <bucket>&quot;Peak&quot;</bucket>
+            </map>
+            <map to='#f8bc5b'>
+              <bucket>&quot;Normal&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Argentina&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='chapter1_timeline.csv.csv' id='chapter1_timeline.csv.csv_2920E02577EF413BB3A890D48F009C34'>
+            <properties context=''>
+              <relation connection='textscan.1tgyc0g1rlc7g1182535g13fnyne' name='chapter1_timeline.csv.csv' table='[chapter1_timeline.csv#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_US' separator=';'>
+                  <column datatype='integer' name='year' ordinal='0' />
+                  <column datatype='integer' name='games_released' ordinal='1' />
+                  <column datatype='real' name='total_sales' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Chapter 1 - Games Released'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='chapter1_timeline.csv' name='federated.1g8kaex0b49gwn1cbvbrd0lyaxc9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g8kaex0b49gwn1cbvbrd0lyaxc9'>
+            <column caption='Highlight Peak' datatype='string' name='[Calculation_2049508464619520]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [year] = 2009 THEN &quot;Peak&quot;&#13;&#10;ELSE &quot;Normal&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Games Released' datatype='integer' name='[games_released]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2049508464619520]' derivation='None' name='[none:Calculation_2049508464619520:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='None' name='[none:year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[games_released]' derivation='Sum' name='[sum:games_released:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='annotation'>
+            <format attr='fill-color' id='annotation_1' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1g8kaex0b49gwn1cbvbrd0lyaxc9].[none:Calculation_2049508464619520:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#ffbe7d' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1g8kaex0b49gwn1cbvbrd0lyaxc9].[sum:games_released:qk]</rows>
+        <cols>[federated.1g8kaex0b49gwn1cbvbrd0lyaxc9].[none:year:qk]</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run bold='true' fontalignment='0'>2009</run>
+              <run fontalignment='0'>Æ&#10;&#10;</run>
+              <run bold='true' fontalignment='0'>4,360 games</run>
+              <run fontalignment='0'>Æ&#10;&#10;</run>
+              <run bold='true' fontalignment='0'>Highest number of releases</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1g8kaex0b49gwn1cbvbrd0lyaxc9].[none:year:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1g8kaex0b49gwn1cbvbrd0lyaxc9].[sum:games_released:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1g8kaex0b49gwn1cbvbrd0lyaxc9].[none:year:qk]</field>
+                      <field>[federated.1g8kaex0b49gwn1cbvbrd0lyaxc9].[sum:games_released:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>2009</value>
+                    <value>4360</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-143' y='39' />
+          </annotation>
+          <annotation class='point' id='1' mark-position='1' pullback='12' text-width='139'>
+            <formatted-text>
+              <run bold='true' fontalignment='0'>2009</run>
+              <run fontalignment='0'>Æ&#10;&#10;</run>
+              <run bold='true' fontalignment='0'>4,360 games</run>
+              <run fontalignment='0'>Æ&#10;&#10;</run>
+              <run bold='true' fontalignment='0'>Highest number of releases</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1g8kaex0b49gwn1cbvbrd0lyaxc9].[none:year:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1g8kaex0b49gwn1cbvbrd0lyaxc9].[sum:games_released:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1g8kaex0b49gwn1cbvbrd0lyaxc9].[none:Calculation_2049508464619520:nk]</field>
+                      <field>[federated.1g8kaex0b49gwn1cbvbrd0lyaxc9].[none:year:qk]</field>
+                      <field>[federated.1g8kaex0b49gwn1cbvbrd0lyaxc9].[sum:games_released:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;Peak&quot;</value>
+                    <value>2009</value>
+                    <value>4360</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-137' y='51' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{AA7E08F1-5F08-4E33-91FE-3A95EDA92AEF}' />
+    </worksheet>
+    <worksheet name='Chapter 1 - Sales Timeline'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='video_games_processed.csv' name='federated.15we36j1ob9pfp1ck6grr1v169sk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15we36j1ob9pfp1ck6grr1v169sk'>
+            <column caption='Release Date' datatype='date' name='[release_date]' role='dimension' type='ordinal' />
+            <column-instance column='[total_sales]' derivation='Sum' name='[sum:total_sales:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Sales' datatype='real' name='[total_sales]' role='measure' type='quantitative' />
+            <column-instance column='[release_date]' derivation='Year' name='[yr:release_date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.15we36j1ob9pfp1ck6grr1v169sk].[sum:total_sales:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.15we36j1ob9pfp1ck6grr1v169sk].[yr:release_date:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.15we36j1ob9pfp1ck6grr1v169sk].[sum:total_sales:qk]</column>
+            <column>[federated.15we36j1ob9pfp1ck6grr1v169sk].[yr:release_date:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='1' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='1' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='annotation'>
+            <format attr='fill-color' id='annotation_0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.15we36j1ob9pfp1ck6grr1v169sk].[sum:total_sales:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2.8618783950805664' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#666666' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='1' />
+                <format attr='line-visibility' value='on' />
+                <format attr='line-pattern-only' value='solid' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.15we36j1ob9pfp1ck6grr1v169sk].[sum:total_sales:qk]</rows>
+        <cols>[federated.15we36j1ob9pfp1ck6grr1v169sk].[yr:release_date:qk]</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='107'>
+            <formatted-text>
+              <run bold='true'>Peak Sales</run>
+              <run>Æ&#10;&#10;</run>
+              <run bold='true'>2008</run>
+              <run>Æ&#10;&#10;</run>
+              <run bold='true'>538.1M copies</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.15we36j1ob9pfp1ck6grr1v169sk].[yr:release_date:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.15we36j1ob9pfp1ck6grr1v169sk].[sum:total_sales:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.15we36j1ob9pfp1ck6grr1v169sk].[sum:total_sales:qk]</field>
+                      <field>[federated.15we36j1ob9pfp1ck6grr1v169sk].[yr:release_date:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>538.1099999999966</value>
+                    <value>2008</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-105' y='42' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{6C7C31CC-B6CE-4A80-A32F-CDDF5874D58C}' />
+    </worksheet>
+    <worksheet name='Chapter 2 - Heatmap'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='chapter2_regional_heatmap.csv' name='federated.0gjgyhr1xd18sx1ev6aav1464168' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gjgyhr1xd18sx1ev6aav1464168'>
+            <column-instance column='[market_share]' derivation='Avg' name='[avg:market_share:qk]' pivot='key' type='quantitative' />
+            <column caption='Genre' datatype='string' name='[genre]' role='dimension' type='nominal' />
+            <column caption='Market Share' datatype='real' name='[market_share]' role='measure' type='quantitative' />
+            <column-instance column='[genre]' derivation='None' name='[none:genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.0gjgyhr1xd18sx1ev6aav1464168].[none:genre:nk]' direction='DESC' using='[federated.0gjgyhr1xd18sx1ev6aav1464168].[avg:market_share:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0gjgyhr1xd18sx1ev6aav1464168].[avg:market_share:qk]' value='' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0gjgyhr1xd18sx1ev6aav1464168].[avg:market_share:qk]' palette='brown_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='alternate-text' field='[federated.0gjgyhr1xd18sx1ev6aav1464168].[avg:market_share:qk]' value='' />
+            <format attr='display-alternate-text' field='[federated.0gjgyhr1xd18sx1ev6aav1464168].[avg:market_share:qk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0gjgyhr1xd18sx1ev6aav1464168].[avg:market_share:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0gjgyhr1xd18sx1ev6aav1464168].[none:genre:nk]</rows>
+        <cols>[federated.0gjgyhr1xd18sx1ev6aav1464168].[none:region:nk]</cols>
+      </table>
+      <simple-id uuid='{315E8A2D-5673-4580-9F45-2F3EE4B60E1C}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{378EC2B0-0D68-4C8C-B014-E021945A402D}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Chapter 1 Dashboard'>
+      <style />
+      <size maxheight='7000' maxwidth='1200' minheight='7000' minwidth='1200' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='99772' id='14' param='horz' type-v2='layout-flow' w='98666' x='667' y='114'>
+            <zone h='99772' id='12' type-v2='layout-basic' w='98666' x='667' y='114'>
+              <zone h='6043' id='8' param='horz' type-v2='layout-flow' w='98666' x='667' y='6314'>
+                <zone h='6043' id='6' type-v2='layout-basic' w='98666' x='667' y='6314'>
+                  <zone h='6043' id='5' name='Chapter 1 - Games Released' show-title='false' w='98666' x='667' y='6314'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='6200' id='3' name='Chapter 1 - Sales Timeline' show-title='false' w='98666' x='667' y='114'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='87529' id='11' name='Chapter 2 - Heatmap' show-title='false' w='98666' x='667' y='12357'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97866' id='9' param='vert' type-v2='layout-flow' w='98666' x='667' y='1067'>
+                <zone fixed-size='280' h='48933' id='3' is-fixed='true' name='Chapter 1 - Sales Timeline' w='98666' x='667' y='1067'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48933' id='5' is-fixed='true' name='Chapter 1 - Games Released' w='98666' x='667' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D22B17FE-E438-46E8-9406-8FE63202C22C}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='72'>
+    <window class='worksheet' name='Chapter 1 - Sales Timeline'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{64120834-658E-49AF-BFAB-E9939CBD540C}' />
+    </window>
+    <window class='worksheet' name='Chapter 1 - Games Released'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1g8kaex0b49gwn1cbvbrd0lyaxc9].[none:Calculation_2049508464619520:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A37A0F93-5B86-40DC-B761-5426C9008114}' />
+    </window>
+    <window class='dashboard' name='Chapter 1 Dashboard'>
+      <viewpoints>
+        <viewpoint name='Chapter 1 - Games Released'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Chapter 1 - Sales Timeline'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Chapter 2 - Heatmap'>
+          <floating-toolbar-visibility value='2' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{2CEFE221-F7D5-4CEC-8868-1455ECDA8EE5}' />
+    </window>
+    <window class='worksheet' name='Chapter 2 - Heatmap'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0gjgyhr1xd18sx1ev6aav1464168].[avg:market_share:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <floating-toolbar-visibility value='2' />
+      </viewpoint>
+      <simple-id uuid='{AF1F2D5B-9D44-4558-85BE-65CFED43DECE}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{59185A75-DBB1-45E9-8234-D5D9D0EE1F40}' />
+    </window>
+  </windows>
+</workbook>
