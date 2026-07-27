@@ -143,6 +143,6 @@ How-the-World-Plays/
 
 Data Analyst passionate about transforming data into meaningful insights through SQL, data visualization, and analytical storytelling.
 
-* GitHub:
-* LinkedIn:
+* GitHub:https://github.com/arielezequielwork
+* LinkedIn:https://www.linkedin.com/in/ezequiel-gonzalez-data/
 
