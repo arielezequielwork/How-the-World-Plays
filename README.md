@@ -6,7 +6,7 @@
   <img src="docs/Dashboard_Overview.png" alt="How the World Plays Dashboard Preview" width="100%">
 </p>
 
-## Overview
+## 💡Overview
 
 **How the World Plays** is an editorial-style data visualization project that explores how player preferences evolved across global markets between **1971 and 2024**.
 
@@ -16,7 +16,7 @@ Each chapter is designed to answer a specific analytical question, guiding reade
 
 ---
 
-## Objectives
+## 🎯Objectives
 
 The project was built around four main objectives:
 
@@ -41,7 +41,7 @@ The dashboard is organized into five analytical chapters, each answering a diffe
 
 ---
 
-## Key Insights
+## 📈Key Insights
 
 Throughout the analysis, several patterns emerged:
 
@@ -66,7 +66,7 @@ Throughout the analysis, several patterns emerged:
 
 ---
 
-## Methodology
+## 🔍Methodology
 
 The project follows a SQL-first workflow, separating data preparation from visualization to create reproducible chapter-specific datasets.
 
@@ -90,7 +90,7 @@ The editorial layout and visual planning were designed beforehand in Figma befor
 
 ---
 
-## Tech Stack
+## 🛠️Tech Stack
 
 * SQL
 * PostgreSQL
@@ -101,7 +101,7 @@ The editorial layout and visual planning were designed beforehand in Figma befor
 
 ---
 
-## Repository Structure
+## 📂Repository Structure
 
 ```text
 How-the-World-Plays/
@@ -134,6 +134,7 @@ How-the-World-Plays/
 │
 └── README.md
 ```
+📄 Additional Documentation
 
 ---
 
