@@ -145,7 +145,11 @@ These resources are intended to provide additional context beyond the interactiv
 ---
 
 📀 Preview
-https://github.com/user-attachments/assets/54e341f5-a072-42aa-9b6c-43db7803fadc
+
+
+https://github.com/user-attachments/assets/60a80d8e-f3d3-48cd-a89f-c524ba9422f2
+
+
 
 ## Author
 
