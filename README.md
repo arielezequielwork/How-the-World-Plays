@@ -8,6 +8,22 @@
   <img src="docs/Dashboard_Overview.png" alt="How the World Plays Dashboard Preview" width="100%">
 </p>
 
+<p align="center">
+
+<a href="https://github.com/arielezequielwork/How-the-World-Plays/blob/main/tableau/twb/How%20the%20World%20Plays.twb">
+  <img src="https://img.shields.io/badge/View-Interactive%20Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
+</a>
+
+<a href="exports/How_the_World_Plays_CaseStudy.pdf">
+  <img src="https://img.shields.io/badge/Read-Case%20Study-DC3545?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
+</a>
+
+<a href="sql/">
+  <img src="https://img.shields.io/badge/Browse-SQL%20Queries-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+</a>
+
+</p>
+
 ## 💡Overview
 
 **How the World Plays** is an editorial-style data visualization project that explores how player preferences evolved across global markets between **1971 and 2024**.
