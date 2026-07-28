@@ -134,9 +134,18 @@ How-the-World-Plays/
 │
 └── README.md
 ```
-📄 Additional Documentation
+## 📄 Additional Documentation
+
+This repository includes additional resources that complement the interactive dashboard:
+
+* **Project Case Study (PDF)** — A concise overview of the project's objectives, workflow, design decisions, and analytical process.
+
+These resources are intended to provide additional context beyond the interactive dashboard and demonstrate both the analytical workflow and the final presentation.
 
 ---
+
+📀 Preview
+https://github.com/user-attachments/assets/54e341f5-a072-42aa-9b6c-43db7803fadc
 
 ## Author
 
