@@ -1,5 +1,3 @@
-![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue) ![Tableau](https://img.shields.io/badge/Tableau-Public-orange) ![Status](https://img.shields.io/badge/Status-Completed-success) ![License](https://img.shields.io/badge/License-MIT-green)
-
 # 🎮 How the World Plays
 
 ### Exploring Four Decades of Regional Gaming Preferences (1971–2024)
@@ -10,11 +8,11 @@
 
 <p align="center">
 
-<a href="https://github.com/arielezequielwork/How-the-World-Plays/blob/main/tableau/twb/How%20the%20World%20Plays.twb">
+<a href="https://public.tableau.com/app/profile/ezequiel.gonzalez6062/viz/HowtheWorldPlays/Chapter1Dashboard?publish=yes">
   <img src="https://img.shields.io/badge/View-Interactive%20Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
 </a>
 
-<a href="exports/How_the_World_Plays_CaseStudy.pdf">
+<a href="https://docs.google.com/document/d/15n2wBWIYG6s7adr9Fdsy4CaLp8NS-5N1OpgOK8Q_plE/edit?usp=drive_link">
   <img src="https://img.shields.io/badge/Read-Case%20Study-DC3545?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
 </a>
 
