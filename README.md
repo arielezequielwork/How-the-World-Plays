@@ -1,10 +1,4 @@
-![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue)
-
-![Tableau](https://img.shields.io/badge/Tableau-Public-orange)
-
-![Status](https://img.shields.io/badge/Status-Completed-success)
-
-![License](https://img.shields.io/badge/License-MIT-green)
+![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue) ![Tableau](https://img.shields.io/badge/Tableau-Public-orange) ![Status](https://img.shields.io/badge/Status-Completed-success) ![License](https://img.shields.io/badge/License-MIT-green)
 
 # 🎮 How the World Plays
 
